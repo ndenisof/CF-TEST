@@ -6,5 +6,5 @@ def hello_world():
     return 'Hi, this basic app was created by Nikolay Denisov.'
 
 @app.route('/secure')
-def hello_world():
+def secure():
     return 'Some secret staff here'
